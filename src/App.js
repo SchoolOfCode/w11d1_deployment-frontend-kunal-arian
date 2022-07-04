@@ -1,10 +1,11 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Form from "./Form.js";
 
 function App() {
   return (
     <div className="App">
-      <h1>HelloWorld! it works!!! another attempt.</h1>
+      <h1>Form Submission App</h1>
+      <Form />
     </div>
   );
 }
